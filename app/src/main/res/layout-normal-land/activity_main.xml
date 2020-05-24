@@ -78,4 +78,58 @@
         app:layout_constraintTop_toBottomOf="@+id/banner"
         app:srcCompat="@drawable/inboxbutton" />
 
+    <ImageView
+        android:id="@+id/codeImgVw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/dataImgVw"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inboxImgVw"
+        app:srcCompat="@drawable/codeimage" />
+
+    <ImageView
+        android:id="@+id/dataImgVw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/codeImgVw"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/photoImgVw"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/codeImgVw"
+        app:layout_constraintTop_toTopOf="@+id/codeImgVw"
+        app:srcCompat="@drawable/dataimage" />
+
+    <ImageView
+        android:id="@+id/photoImgVw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/dataImgVw"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/videoImgVw"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dataImgVw"
+        app:layout_constraintTop_toTopOf="@+id/dataImgVw"
+        app:srcCompat="@drawable/imagesimage" />
+
+    <ImageView
+        android:id="@+id/videoImgVw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/photoImgVw"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/photoImgVw"
+        app:layout_constraintTop_toTopOf="@+id/photoImgVw"
+        app:srcCompat="@drawable/videosimage" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
