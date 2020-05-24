@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/banner"
         android:layout_width="0dp"
         android:layout_height="125dp"
         android:scaleType="centerCrop"

@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/banner"
         android:layout_width="0dp"
         android:layout_height="140dp"
         android:scaleType="centerCrop"
